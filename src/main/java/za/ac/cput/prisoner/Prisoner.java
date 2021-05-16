@@ -3,8 +3,9 @@ package za.ac.cput.prisoner;
 import java.util.Objects;
 
 /*
-* Author: Keenan Solomons 219264228
-* Description: Assignment 2 for ADP372S
+ * Author: Keenan Solomons 219264228
+ * Description: Assignment 2 for ADP372S
+ * Prisoner Class
  */
 
 public class Prisoner {

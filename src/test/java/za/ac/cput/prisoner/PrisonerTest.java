@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /*
  * Author: Keenan Solomons 219264228
  * Description: Assignment 2 for ADP372S
+ * Prisoner Test Class
  */
 
 class PrisonerTest {
@@ -39,7 +40,11 @@ class PrisonerTest {
         System.out.println(prisonerCollection);
 
         //find
-        prisonerCollection.contains(prisoner4);
+        if(prisonerCollection.contains(prisoner4)){
+            System.out.println("Prisoner is here");
+        }else{
+            System.out.println("Prisoner is not here");
+        }
 
         //testcase for find
         assertEquals(true, prisonerCollection.contains(prisoner4));
@@ -66,7 +71,11 @@ class PrisonerTest {
         System.out.println(prisonerMap);
 
         //find
-        prisonerMap.containsValue(prisoner1);
+        if(prisonerMap.containsValue(prisoner1)){
+            System.out.println("Prisoner is here");
+        }else{
+            System.out.println("Prisoner is not here");
+        }
 
         //testcase for find
         assertEquals(true, prisonerMap.containsValue(prisoner1));
@@ -93,7 +102,11 @@ class PrisonerTest {
         System.out.println(prisonerSet);
 
         //find
-        prisonerSet.contains(prisoner2);
+        if(prisonerSet.contains(prisoner2)){
+            System.out.println("Prisoner is here");
+        }else{
+            System.out.println("Prisoner is not here");
+        }
 
         //testcase for find
         assertEquals(true, prisonerSet.contains(prisoner2));
@@ -120,7 +133,11 @@ class PrisonerTest {
         System.out.println(prisonerList);
 
         //find
-        prisonerList.contains(prisoner3);
+        if(prisonerList.contains(prisoner3)){
+            System.out.println("Prisoner is here");
+        }else{
+            System.out.println("Prisoner is not here");
+        }
 
         //testcase for find
         assertEquals(true, prisonerList.contains(prisoner3));
