@@ -10,12 +10,12 @@ import java.util.Objects;
 public class Prisoner {
     private int prisonerId;
     private String prisonerName;
-    private String cellNumber;
+    private String cell;
 
-    public Prisoner(int prisonerId, String prisonerName, String cellNumber) {
+    public Prisoner(int prisonerId, String prisonerName, String cell) {
         this.prisonerId = prisonerId;
         this.prisonerName = prisonerName;
-        this.cellNumber = cellNumber;
+        this.cell = cell;
     }
 
     public int getPrisonerId() {
@@ -34,12 +34,12 @@ public class Prisoner {
         this.prisonerName = prisonerName;
     }
 
-    public String getCellNumber() {
-        return cellNumber;
+    public String getCell() {
+        return cell;
     }
 
-    public void setCellNumber(String cellNumber) {
-        this.cellNumber = cellNumber;
+    public void setCell(String cell) {
+        this.cell = cell;
     }
 
     @Override
@@ -47,7 +47,7 @@ public class Prisoner {
         return "Prisoner{" +
                 "prisonerId=" + prisonerId +
                 ", prisonerName='" + prisonerName + '\'' +
-                ", cellNumber='" + cellNumber + '\'' +
+                ", cell='" + cell + '\'' +
                 '}';
     }
     @Override
